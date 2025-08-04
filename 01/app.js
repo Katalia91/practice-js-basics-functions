@@ -1,6 +1,5 @@
-const time = new Date().toLocaleTimeString();
-
 function showCurrentTime() {
+  const time = new Date().toLocaleTimeString();
   console.log(time);
 }
 
